@@ -14,6 +14,9 @@
 		167EE3C62C2C6EBB0057E656 /* The_Culinary_CompassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EE3C52C2C6EBB0057E656 /* The_Culinary_CompassTests.swift */; };
 		167EE3D02C2C6EBB0057E656 /* The_Culinary_CompassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EE3CF2C2C6EBB0057E656 /* The_Culinary_CompassUITests.swift */; };
 		167EE3D22C2C6EBB0057E656 /* The_Culinary_CompassUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EE3D12C2C6EBB0057E656 /* The_Culinary_CompassUITestsLaunchTests.swift */; };
+		50840D652C2C7882005C1491 /* SouthAmericaFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50840D642C2C7882005C1491 /* SouthAmericaFood.swift */; };
+		50840D672C2C79B7005C1491 /* SouthAmericaMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50840D662C2C79B7005C1491 /* SouthAmericaMap.swift */; };
+		50840D692C2C7A07005C1491 /* mapOfUS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50840D682C2C7A07005C1491 /* mapOfUS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		167EE3CB2C2C6EBB0057E656 /* The Culinary CompassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Culinary CompassUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		167EE3CF2C2C6EBB0057E656 /* The_Culinary_CompassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Culinary_CompassUITests.swift; sourceTree = "<group>"; };
 		167EE3D12C2C6EBB0057E656 /* The_Culinary_CompassUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Culinary_CompassUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		50840D642C2C7882005C1491 /* SouthAmericaFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthAmericaFood.swift; sourceTree = "<group>"; };
+		50840D662C2C79B7005C1491 /* SouthAmericaMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthAmericaMap.swift; sourceTree = "<group>"; };
+		50840D682C2C7A07005C1491 /* mapOfUS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapOfUS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				167EE3B42C2C6EB90057E656 /* The_Culinary_CompassApp.swift */,
 				167EE3B62C2C6EB90057E656 /* ContentView.swift */,
+				50840D642C2C7882005C1491 /* SouthAmericaFood.swift */,
+				50840D662C2C79B7005C1491 /* SouthAmericaMap.swift */,
+				50840D682C2C7A07005C1491 /* mapOfUS.swift */,
 				167EE3B82C2C6EBB0057E656 /* Assets.xcassets */,
 				167EE3BA2C2C6EBB0057E656 /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50840D692C2C7A07005C1491 /* mapOfUS.swift in Sources */,
+				50840D652C2C7882005C1491 /* SouthAmericaFood.swift in Sources */,
 				167EE3B72C2C6EB90057E656 /* ContentView.swift in Sources */,
 				167EE3B52C2C6EB90057E656 /* The_Culinary_CompassApp.swift in Sources */,
+				50840D672C2C79B7005C1491 /* SouthAmericaMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
