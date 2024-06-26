@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		167EE3B52C2C6EB90057E656 /* The_Culinary_CompassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EE3B42C2C6EB90057E656 /* The_Culinary_CompassApp.swift */; };
+		167EE3B72C2C6EB90057E656 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EE3B62C2C6EB90057E656 /* ContentView.swift */; };
+		167EE3B92C2C6EBB0057E656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167EE3B82C2C6EBB0057E656 /* Assets.xcassets */; };
+		167EE3BC2C2C6EBB0057E656 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167EE3BB2C2C6EBB0057E656 /* Preview Assets.xcassets */; };
+		167EE3C62C2C6EBB0057E656 /* The_Culinary_CompassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EE3C52C2C6EBB0057E656 /* The_Culinary_CompassTests.swift */; };
+		167EE3D02C2C6EBB0057E656 /* The_Culinary_CompassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EE3CF2C2C6EBB0057E656 /* The_Culinary_CompassUITests.swift */; };
+		167EE3D22C2C6EBB0057E656 /* The_Culinary_CompassUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EE3D12C2C6EBB0057E656 /* The_Culinary_CompassUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		167EE3C22C2C6EBB0057E656 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 167EE3A92C2C6EB90057E656 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 167EE3B02C2C6EB90057E656;
+			remoteInfo = "The Culinary Compass";
+		};
+		167EE3CC2C2C6EBB0057E656 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 167EE3A92C2C6EB90057E656 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 167EE3B02C2C6EB90057E656;
+			remoteInfo = "The Culinary Compass";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		167EE3B12C2C6EB90057E656 /* The Culinary Compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Culinary Compass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		167EE3B42C2C6EB90057E656 /* The_Culinary_CompassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Culinary_CompassApp.swift; sourceTree = "<group>"; };
+		167EE3B62C2C6EB90057E656 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		167EE3B82C2C6EBB0057E656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		167EE3BB2C2C6EBB0057E656 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		167EE3C12C2C6EBB0057E656 /* The Culinary CompassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Culinary CompassTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		167EE3C52C2C6EBB0057E656 /* The_Culinary_CompassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Culinary_CompassTests.swift; sourceTree = "<group>"; };
+		167EE3CB2C2C6EBB0057E656 /* The Culinary CompassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Culinary CompassUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		167EE3CF2C2C6EBB0057E656 /* The_Culinary_CompassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Culinary_CompassUITests.swift; sourceTree = "<group>"; };
+		167EE3D12C2C6EBB0057E656 /* The_Culinary_CompassUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Culinary_CompassUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		167EE3AE2C2C6EB90057E656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167EE3BE2C2C6EBB0057E656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167EE3C82C2C6EBB0057E656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		167EE3A82C2C6EB90057E656 = {
+			isa = PBXGroup;
+			children = (
+				167EE3B32C2C6EB90057E656 /* The Culinary Compass */,
+				167EE3C42C2C6EBB0057E656 /* The Culinary CompassTests */,
+				167EE3CE2C2C6EBB0057E656 /* The Culinary CompassUITests */,
+				167EE3B22C2C6EB90057E656 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		167EE3B22C2C6EB90057E656 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				167EE3B12C2C6EB90057E656 /* The Culinary Compass.app */,
+				167EE3C12C2C6EBB0057E656 /* The Culinary CompassTests.xctest */,
+				167EE3CB2C2C6EBB0057E656 /* The Culinary CompassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		167EE3B32C2C6EB90057E656 /* The Culinary Compass */ = {
+			isa = PBXGroup;
+			children = (
+				167EE3B42C2C6EB90057E656 /* The_Culinary_CompassApp.swift */,
+				167EE3B62C2C6EB90057E656 /* ContentView.swift */,
+				167EE3B82C2C6EBB0057E656 /* Assets.xcassets */,
+				167EE3BA2C2C6EBB0057E656 /* Preview Content */,
+			);
+			path = "The Culinary Compass";
+			sourceTree = "<group>";
+		};
+		167EE3BA2C2C6EBB0057E656 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				167EE3BB2C2C6EBB0057E656 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		167EE3C42C2C6EBB0057E656 /* The Culinary CompassTests */ = {
+			isa = PBXGroup;
+			children = (
+				167EE3C52C2C6EBB0057E656 /* The_Culinary_CompassTests.swift */,
+			);
+			path = "The Culinary CompassTests";
+			sourceTree = "<group>";
+		};
+		167EE3CE2C2C6EBB0057E656 /* The Culinary CompassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				167EE3CF2C2C6EBB0057E656 /* The_Culinary_CompassUITests.swift */,
+				167EE3D12C2C6EBB0057E656 /* The_Culinary_CompassUITestsLaunchTests.swift */,
+			);
+			path = "The Culinary CompassUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		167EE3B02C2C6EB90057E656 /* The Culinary Compass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167EE3D52C2C6EBB0057E656 /* Build configuration list for PBXNativeTarget "The Culinary Compass" */;
+			buildPhases = (
+				167EE3AD2C2C6EB90057E656 /* Sources */,
+				167EE3AE2C2C6EB90057E656 /* Frameworks */,
+				167EE3AF2C2C6EB90057E656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Culinary Compass";
+			productName = "The Culinary Compass";
+			productReference = 167EE3B12C2C6EB90057E656 /* The Culinary Compass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		167EE3C02C2C6EBB0057E656 /* The Culinary CompassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167EE3D82C2C6EBB0057E656 /* Build configuration list for PBXNativeTarget "The Culinary CompassTests" */;
+			buildPhases = (
+				167EE3BD2C2C6EBB0057E656 /* Sources */,
+				167EE3BE2C2C6EBB0057E656 /* Frameworks */,
+				167EE3BF2C2C6EBB0057E656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				167EE3C32C2C6EBB0057E656 /* PBXTargetDependency */,
+			);
+			name = "The Culinary CompassTests";
+			productName = "The Culinary CompassTests";
+			productReference = 167EE3C12C2C6EBB0057E656 /* The Culinary CompassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		167EE3CA2C2C6EBB0057E656 /* The Culinary CompassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167EE3DB2C2C6EBB0057E656 /* Build configuration list for PBXNativeTarget "The Culinary CompassUITests" */;
+			buildPhases = (
+				167EE3C72C2C6EBB0057E656 /* Sources */,
+				167EE3C82C2C6EBB0057E656 /* Frameworks */,
+				167EE3C92C2C6EBB0057E656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				167EE3CD2C2C6EBB0057E656 /* PBXTargetDependency */,
+			);
+			name = "The Culinary CompassUITests";
+			productName = "The Culinary CompassUITests";
+			productReference = 167EE3CB2C2C6EBB0057E656 /* The Culinary CompassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		167EE3A92C2C6EB90057E656 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					167EE3B02C2C6EB90057E656 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					167EE3C02C2C6EBB0057E656 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 167EE3B02C2C6EB90057E656;
+					};
+					167EE3CA2C2C6EBB0057E656 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 167EE3B02C2C6EB90057E656;
+					};
+				};
+			};
+			buildConfigurationList = 167EE3AC2C2C6EB90057E656 /* Build configuration list for PBXProject "The Culinary Compass" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 167EE3A82C2C6EB90057E656;
+			productRefGroup = 167EE3B22C2C6EB90057E656 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				167EE3B02C2C6EB90057E656 /* The Culinary Compass */,
+				167EE3C02C2C6EBB0057E656 /* The Culinary CompassTests */,
+				167EE3CA2C2C6EBB0057E656 /* The Culinary CompassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		167EE3AF2C2C6EB90057E656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167EE3BC2C2C6EBB0057E656 /* Preview Assets.xcassets in Resources */,
+				167EE3B92C2C6EBB0057E656 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167EE3BF2C2C6EBB0057E656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167EE3C92C2C6EBB0057E656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		167EE3AD2C2C6EB90057E656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167EE3B72C2C6EB90057E656 /* ContentView.swift in Sources */,
+				167EE3B52C2C6EB90057E656 /* The_Culinary_CompassApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167EE3BD2C2C6EBB0057E656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167EE3C62C2C6EBB0057E656 /* The_Culinary_CompassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167EE3C72C2C6EBB0057E656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167EE3D22C2C6EBB0057E656 /* The_Culinary_CompassUITestsLaunchTests.swift in Sources */,
+				167EE3D02C2C6EBB0057E656 /* The_Culinary_CompassUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		167EE3C32C2C6EBB0057E656 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 167EE3B02C2C6EB90057E656 /* The Culinary Compass */;
+			targetProxy = 167EE3C22C2C6EBB0057E656 /* PBXContainerItemProxy */;
+		};
+		167EE3CD2C2C6EBB0057E656 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 167EE3B02C2C6EB90057E656 /* The Culinary Compass */;
+			targetProxy = 167EE3CC2C2C6EBB0057E656 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		167EE3D32C2C6EBB0057E656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		167EE3D42C2C6EBB0057E656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		167EE3D62C2C6EBB0057E656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Culinary Compass/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.The-Culinary-Compass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		167EE3D72C2C6EBB0057E656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Culinary Compass/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.The-Culinary-Compass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		167EE3D92C2C6EBB0057E656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.The-Culinary-CompassTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Culinary Compass.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/The Culinary Compass";
+			};
+			name = Debug;
+		};
+		167EE3DA2C2C6EBB0057E656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.The-Culinary-CompassTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Culinary Compass.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/The Culinary Compass";
+			};
+			name = Release;
+		};
+		167EE3DC2C2C6EBB0057E656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.The-Culinary-CompassUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Culinary Compass";
+			};
+			name = Debug;
+		};
+		167EE3DD2C2C6EBB0057E656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.The-Culinary-CompassUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Culinary Compass";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		167EE3AC2C2C6EB90057E656 /* Build configuration list for PBXProject "The Culinary Compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167EE3D32C2C6EBB0057E656 /* Debug */,
+				167EE3D42C2C6EBB0057E656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		167EE3D52C2C6EBB0057E656 /* Build configuration list for PBXNativeTarget "The Culinary Compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167EE3D62C2C6EBB0057E656 /* Debug */,
+				167EE3D72C2C6EBB0057E656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		167EE3D82C2C6EBB0057E656 /* Build configuration list for PBXNativeTarget "The Culinary CompassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167EE3D92C2C6EBB0057E656 /* Debug */,
+				167EE3DA2C2C6EBB0057E656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		167EE3DB2C2C6EBB0057E656 /* Build configuration list for PBXNativeTarget "The Culinary CompassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167EE3DC2C2C6EBB0057E656 /* Debug */,
+				167EE3DD2C2C6EBB0057E656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 167EE3A92C2C6EB90057E656 /* Project object */;
+}
