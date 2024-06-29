@@ -11,13 +11,13 @@ struct SouthAmericaFood: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                Color(.systemBrown)
+                Color(red: 0.671, green: 0.353, blue: 0.051)
                     .ignoresSafeArea()
                 ScrollView {
                     VStack {
                         Text("South American Cuisines")
                             .font(.largeTitle)
-                            .fontWeight(.heavy)
+                            .fontWeight(.bold)
                             .padding()
                             .background(Rectangle() .foregroundColor(.orange))
                             .cornerRadius(15)
@@ -27,25 +27,20 @@ struct SouthAmericaFood: View {
                             HStack (alignment: .top){
                                 VStack {
                                     Text("Chivito")
-                                            .font(.title)
-                                            .foregroundColor(.black)
-                                            .fontWeight(.semibold)
-                                            .padding()
+                                        .font(.title2)
+                                        .foregroundColor(.black)
+                                        .fontWeight(.bold)
                                     Image("chivito")
                                         .resizable(resizingMode: .stretch)
                                         .aspectRatio(contentMode: .fit)
                                         .cornerRadius(15)
                                     NavigationLink (destination: SouthAmericaMap()) {
                                         Text("Uruguay📍")
-                                            .font(.title2)
                                             .background(.brown)
                                             .foregroundColor(.black)
-                                            .padding()
                                     }
+                                    Text("This is a popular Uruguayan sandwich that is made with thinly sliced beef from the asado, or barbecue. You then add ham, melted cheese, lettuce, tomato, mayo, and a fried egg, then you serve it with French fries.")
                                 }
-                                Text("A popular Uruguayan sandwich made with thinly sliced beef from the asado, or barbecue. You then add ham, melted cheese, lettuce, tomato, mayo, and a fried egg, then serve with French fries.")
-                                    .font(.subheadline)
-                                    .padding()
                             }
                             
                             
@@ -54,73 +49,29 @@ struct SouthAmericaFood: View {
                                     Text("Bolon de Verde")
                                         .font(.title2)
                                         .foregroundColor(.black)
-                                        .fontWeight(.semibold)
-                                        .padding()
+                                        .fontWeight(.bold)
                                     Image("bolon")
                                         .resizable(resizingMode: .stretch)
                                         .aspectRatio(contentMode: .fit)
                                         .cornerRadius(15)
                                     NavigationLink (destination: SouthAmericaMap()) {
                                         Text("Ecuador📍")
-                                            .font(.title2)
                                             .background(.brown)
                                             .foregroundColor(.black)
-                                            .padding()
                                     }
-                                }
-                                Text("This Ecuadorian breakfast dish is a carb-rich ball of mashed green plantain filled with cheese, bacon, or pork crackling. It’s deep fried until crispy and served with fresh fruit, such as papaya or guava.")
-                                    .font(.subheadline)
-                                    .padding()
-                            }
+                                    Text("This Ecuadorian breakfast dish is a carb-rich ball of mashed green plantain filled with cheese, bacon, or pork crackling. It’s deep fried until crispy and served with fresh fruit, such as papaya or guava.")
+                                }                            }
                         }
                         .padding()
                         .background(Rectangle() .foregroundColor(.orange))
                         .cornerRadius(15)
                         .shadow(radius: 15)
                         .padding()
-                        
-                        Text("American Cuisine")
-                            .font(.largeTitle)
-                            .fontWeight(.heavy)
-                            .padding()
-                            .background(Rectangle() .foregroundColor(.orange))
-                            .cornerRadius(15)
-                            .shadow(radius: 15)
-                            .padding()
-                        
-                        HStack (alignment: .top){
-                            VStack {
-                                    Text("Philly Cheese Steak")
-                                        .font(.title2)
-                                        .foregroundColor(.black)
-                                        .fontWeight(.semibold)
-                                        .padding()
-                                Image("cheesesteak")
-                                    .resizable(resizingMode: .stretch)
-                                    .aspectRatio(contentMode: .fit)
-                                    .cornerRadius(15)
-                                NavigationLink (destination: mapOfUS()) {
-                                    Text("Philadelphia, PA📍")
-                                        .font(.title2)
-                                        .background(.brown)
-                                        .foregroundColor(.black)
-                                        .padding()
-                                }
-                            }
-                            Text("What makes a Philly cheesesteak special is the beef, and the way that it combines with the cheese, onions, and bread to become a cohesive whole that’s better than the sum of its parts.")
-                                .font(.subheadline)
-                                .padding()
-                        }
-                        .padding()
-                        .background(Rectangle() .foregroundColor(.orange))
-                        .cornerRadius(15)
-                        .shadow(radius: 15)
-                        .padding()
-                        
                     }
                 }
             }
         }
+        .accentColor(.black)
     }
 }
 

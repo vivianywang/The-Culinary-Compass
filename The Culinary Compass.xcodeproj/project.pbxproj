@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		161CA96C2C2DAD42006A5BA7 /* AfricaMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161CA96B2C2DAD42006A5BA7 /* AfricaMap.swift */; };
+		161CA96E2C2DAE10006A5BA7 /* NorthAmericaFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161CA96D2C2DAE10006A5BA7 /* NorthAmericaFood.swift */; };
+		161CA9702C2DB320006A5BA7 /* CanadaMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161CA96F2C2DB320006A5BA7 /* CanadaMap.swift */; };
+		161CA9722C2DB341006A5BA7 /* NYMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161CA9712C2DB341006A5BA7 /* NYMap.swift */; };
+		161CA9742C2EF1FB006A5BA7 /* personality quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161CA9732C2EF1FB006A5BA7 /* personality quiz.swift */; };
+		161CA9762C2EF21E006A5BA7 /* Question1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161CA9752C2EF21E006A5BA7 /* Question1.swift */; };
+		161CA9782C2EF27D006A5BA7 /* Question2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161CA9772C2EF27D006A5BA7 /* Question2.swift */; };
+		161CA97A2C2EF390006A5BA7 /* Question 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161CA9792C2EF390006A5BA7 /* Question 3.swift */; };
+		161CA97C2C2EF3E2006A5BA7 /* Question4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161CA97B2C2EF3E2006A5BA7 /* Question4.swift */; };
+		161CA97E2C2EF461006A5BA7 /* FinalResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161CA97D2C2EF461006A5BA7 /* FinalResults.swift */; };
 		167EE3B52C2C6EB90057E656 /* The_Culinary_CompassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EE3B42C2C6EB90057E656 /* The_Culinary_CompassApp.swift */; };
 		167EE3B72C2C6EB90057E656 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EE3B62C2C6EB90057E656 /* ContentView.swift */; };
 		167EE3B92C2C6EBB0057E656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167EE3B82C2C6EBB0057E656 /* Assets.xcassets */; };
@@ -14,6 +24,13 @@
 		167EE3C62C2C6EBB0057E656 /* The_Culinary_CompassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EE3C52C2C6EBB0057E656 /* The_Culinary_CompassTests.swift */; };
 		167EE3D02C2C6EBB0057E656 /* The_Culinary_CompassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EE3CF2C2C6EBB0057E656 /* The_Culinary_CompassUITests.swift */; };
 		167EE3D22C2C6EBB0057E656 /* The_Culinary_CompassUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EE3D12C2C6EBB0057E656 /* The_Culinary_CompassUITestsLaunchTests.swift */; };
+		167EE3DF2C2C81DF0057E656 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EE3DE2C2C81DF0057E656 /* HomePage.swift */; };
+		167EE3E12C2C93D90057E656 /* EuropeFoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EE3E02C2C93D90057E656 /* EuropeFoods.swift */; };
+		167EE3E32C2C99DC0057E656 /* EuropeMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EE3E22C2C99DC0057E656 /* EuropeMap.swift */; };
+		167EE3E52C2CFCCF0057E656 /* AsiaFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EE3E42C2CFCCF0057E656 /* AsiaFood.swift */; };
+		167EE3E72C2D04740057E656 /* KoreaMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EE3E62C2D04740057E656 /* KoreaMap.swift */; };
+		167EE3E92C2D048F0057E656 /* JapanMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EE3E82C2D048F0057E656 /* JapanMap.swift */; };
+		167EE3EB2C2DA2D50057E656 /* AfricaFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EE3EA2C2DA2D50057E656 /* AfricaFood.swift */; };
 		50840D652C2C7882005C1491 /* SouthAmericaFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50840D642C2C7882005C1491 /* SouthAmericaFood.swift */; };
 		50840D672C2C79B7005C1491 /* SouthAmericaMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50840D662C2C79B7005C1491 /* SouthAmericaMap.swift */; };
 		50840D692C2C7A07005C1491 /* mapOfUS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50840D682C2C7A07005C1491 /* mapOfUS.swift */; };
@@ -37,6 +54,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		161CA96B2C2DAD42006A5BA7 /* AfricaMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaMap.swift; sourceTree = "<group>"; };
+		161CA96D2C2DAE10006A5BA7 /* NorthAmericaFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorthAmericaFood.swift; sourceTree = "<group>"; };
+		161CA96F2C2DB320006A5BA7 /* CanadaMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanadaMap.swift; sourceTree = "<group>"; };
+		161CA9712C2DB341006A5BA7 /* NYMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYMap.swift; sourceTree = "<group>"; };
+		161CA9732C2EF1FB006A5BA7 /* personality quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "personality quiz.swift"; sourceTree = "<group>"; };
+		161CA9752C2EF21E006A5BA7 /* Question1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question1.swift; sourceTree = "<group>"; };
+		161CA9772C2EF27D006A5BA7 /* Question2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question2.swift; sourceTree = "<group>"; };
+		161CA9792C2EF390006A5BA7 /* Question 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question 3.swift"; sourceTree = "<group>"; };
+		161CA97B2C2EF3E2006A5BA7 /* Question4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question4.swift; sourceTree = "<group>"; };
+		161CA97D2C2EF461006A5BA7 /* FinalResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalResults.swift; sourceTree = "<group>"; };
 		167EE3B12C2C6EB90057E656 /* The Culinary Compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Culinary Compass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		167EE3B42C2C6EB90057E656 /* The_Culinary_CompassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Culinary_CompassApp.swift; sourceTree = "<group>"; };
 		167EE3B62C2C6EB90057E656 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +74,13 @@
 		167EE3CB2C2C6EBB0057E656 /* The Culinary CompassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Culinary CompassUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		167EE3CF2C2C6EBB0057E656 /* The_Culinary_CompassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Culinary_CompassUITests.swift; sourceTree = "<group>"; };
 		167EE3D12C2C6EBB0057E656 /* The_Culinary_CompassUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Culinary_CompassUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		167EE3DE2C2C81DF0057E656 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		167EE3E02C2C93D90057E656 /* EuropeFoods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuropeFoods.swift; sourceTree = "<group>"; };
+		167EE3E22C2C99DC0057E656 /* EuropeMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuropeMap.swift; sourceTree = "<group>"; };
+		167EE3E42C2CFCCF0057E656 /* AsiaFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsiaFood.swift; sourceTree = "<group>"; };
+		167EE3E62C2D04740057E656 /* KoreaMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreaMap.swift; sourceTree = "<group>"; };
+		167EE3E82C2D048F0057E656 /* JapanMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapanMap.swift; sourceTree = "<group>"; };
+		167EE3EA2C2DA2D50057E656 /* AfricaFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaFood.swift; sourceTree = "<group>"; };
 		50840D642C2C7882005C1491 /* SouthAmericaFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthAmericaFood.swift; sourceTree = "<group>"; };
 		50840D662C2C79B7005C1491 /* SouthAmericaMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthAmericaMap.swift; sourceTree = "<group>"; };
 		50840D682C2C7A07005C1491 /* mapOfUS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapOfUS.swift; sourceTree = "<group>"; };
@@ -102,9 +136,26 @@
 			children = (
 				167EE3B42C2C6EB90057E656 /* The_Culinary_CompassApp.swift */,
 				167EE3B62C2C6EB90057E656 /* ContentView.swift */,
+				161CA9732C2EF1FB006A5BA7 /* personality quiz.swift */,
+				161CA9752C2EF21E006A5BA7 /* Question1.swift */,
+				161CA9772C2EF27D006A5BA7 /* Question2.swift */,
+				161CA9792C2EF390006A5BA7 /* Question 3.swift */,
+				161CA97B2C2EF3E2006A5BA7 /* Question4.swift */,
+				161CA97D2C2EF461006A5BA7 /* FinalResults.swift */,
+				167EE3DE2C2C81DF0057E656 /* HomePage.swift */,
+				161CA96D2C2DAE10006A5BA7 /* NorthAmericaFood.swift */,
+				167EE3E02C2C93D90057E656 /* EuropeFoods.swift */,
 				50840D642C2C7882005C1491 /* SouthAmericaFood.swift */,
+				167EE3E42C2CFCCF0057E656 /* AsiaFood.swift */,
+				167EE3EA2C2DA2D50057E656 /* AfricaFood.swift */,
+				161CA96B2C2DAD42006A5BA7 /* AfricaMap.swift */,
+				167EE3E82C2D048F0057E656 /* JapanMap.swift */,
+				167EE3E62C2D04740057E656 /* KoreaMap.swift */,
+				167EE3E22C2C99DC0057E656 /* EuropeMap.swift */,
 				50840D662C2C79B7005C1491 /* SouthAmericaMap.swift */,
+				161CA9712C2DB341006A5BA7 /* NYMap.swift */,
 				50840D682C2C7A07005C1491 /* mapOfUS.swift */,
+				161CA96F2C2DB320006A5BA7 /* CanadaMap.swift */,
 				167EE3B82C2C6EBB0057E656 /* Assets.xcassets */,
 				167EE3BA2C2C6EBB0057E656 /* Preview Content */,
 			);
@@ -266,11 +317,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				161CA9702C2DB320006A5BA7 /* CanadaMap.swift in Sources */,
+				161CA96E2C2DAE10006A5BA7 /* NorthAmericaFood.swift in Sources */,
+				167EE3E32C2C99DC0057E656 /* EuropeMap.swift in Sources */,
+				167EE3EB2C2DA2D50057E656 /* AfricaFood.swift in Sources */,
+				167EE3E52C2CFCCF0057E656 /* AsiaFood.swift in Sources */,
 				50840D692C2C7A07005C1491 /* mapOfUS.swift in Sources */,
+				167EE3E72C2D04740057E656 /* KoreaMap.swift in Sources */,
+				161CA97E2C2EF461006A5BA7 /* FinalResults.swift in Sources */,
+				167EE3E12C2C93D90057E656 /* EuropeFoods.swift in Sources */,
 				50840D652C2C7882005C1491 /* SouthAmericaFood.swift in Sources */,
+				161CA9742C2EF1FB006A5BA7 /* personality quiz.swift in Sources */,
+				167EE3DF2C2C81DF0057E656 /* HomePage.swift in Sources */,
+				161CA97C2C2EF3E2006A5BA7 /* Question4.swift in Sources */,
+				167EE3E92C2D048F0057E656 /* JapanMap.swift in Sources */,
+				161CA9722C2DB341006A5BA7 /* NYMap.swift in Sources */,
+				161CA9762C2EF21E006A5BA7 /* Question1.swift in Sources */,
 				167EE3B72C2C6EB90057E656 /* ContentView.swift in Sources */,
 				167EE3B52C2C6EB90057E656 /* The_Culinary_CompassApp.swift in Sources */,
+				161CA9782C2EF27D006A5BA7 /* Question2.swift in Sources */,
 				50840D672C2C79B7005C1491 /* SouthAmericaMap.swift in Sources */,
+				161CA97A2C2EF390006A5BA7 /* Question 3.swift in Sources */,
+				161CA96C2C2DAD42006A5BA7 /* AfricaMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

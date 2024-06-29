@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
-
+var fufuScore = 0
+var chivitoScore = 0
+var tonkotsuScore = 0
+var gnocchiScore = 0
 @main
 struct The_Culinary_CompassApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
     }
+  }
 }
